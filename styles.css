@@ -1,9 +1,20 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 40%;
+  padding-top: 20px;
 }
 
 nav {
   display: flex;
+  gap: 30px;
+}
+
+main {
+  flex: 1;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
