@@ -20,14 +20,16 @@ main {
   gap: 20px;
 }
 
-h4{
-    font-size: 20px;
+h4 {
+  font-size: 20px;
   color: rgb(10, 10, 10);
   padding: 10px;
- padding-left: 10%;
+  padding-left: 10%;
   padding-right: 10%;
   border-radius: 5px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
@@ -35,8 +37,8 @@ footer {
   font-size: medium;
   padding: 10px;
   width: 100%;
-  margin-top: 20px; 
+  margin-top: 20px;
   justify-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
 }
